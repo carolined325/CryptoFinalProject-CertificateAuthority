@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+<html lang="EN">
+
+<head>
+    <title>Final Project Crypto</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <!-- <nav class="navbar navbar-expand-lg navbar-light bg-secondary">
+        <a class="navbar-brand" href="#">Certificate Authority</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a onclick="navHome()" id="home" class="nav-link" href="#"><i class="fa-solid fa-house"></i><span
+                            class="nav-span">Home</span></a>
+                </li>
+                <li class="nav-item">
+                    <a onclick="navTable()" id="table" class="nav-link" href="#"><i class="fa-solid fa-school"></i><span
+                            class="nav-span">Table</span></a>
+                </li>
+                <li class="nav-item">
+                    <a  id="theme" class="nav-link" href="#"><i class="fa-solid fa-circle-half-stroke"></i><span
+                        class="nav-span">Mode</span></a>
+                </li> 
+            </ul>
+        </div>
+    </nav> -->
+
+    <div id="homeDiv" class="displayed">
+        <div>
+            <h1>Certificate Authority</h1>
+            <p>This is a UI for a Certificate Authority</p>
+            <div>
+            <img src="certificateauthority.png" alt="Image of certificate authority">
+            </div>
+            <button id="view" >Show Root Certificate Authority Info</button>
+            <!-- <button id="renew" >Renew Certificate</button> -->
+        </div>
+    </div>
+
+    <div id="viewCert" class="displayed">
+        <!-- list certificate tables -->
+         
+    </div>
+
+    <!-- <div id="renewCert" class="displayed"> -->
+        <!-- list certificate tables -->
+    <!-- </div> -->
+
+    <div id="certDiv" class="flex-parent not-displayed">
+        <div>
+            <h3> Our credentials for this certificate authority</h1>
+            <img src="image.png" id="two" alt="Image of our certificate authority information">
+            <br>
+            <h3>Our Certificate Authority for this webpage</h1>
+            <img src="womenca.png" id="two" alt="Image of this pages certificate authority">
+            <br>
+            <button id="home">Home</button>
+        </div>
+    </div>
+
+    <!-- <div id="tableDiv" class="flex-parent not-displayed">
+        <div>
+            <h1>Certificate Authority</h1>
+            <table>
+                 change these names to match what the CA displays
+                <thead>
+                    <th>Assignment</th>
+                    <th>Points Earned</th>
+                    <th>Total Points</th>
+                    <th>Action</th>
+                </thead>
+                <tbody id="table"></tbody>
+                 rename all of these to grab the info they need 
+                 use the api to get this information? 
+                <input id="assignment-name" placeholder="Assignment name" class="input-item">
+                <input id="points-earned" type="number" min="0" placeholder="Points earned" class="input-item">
+                <input id="total-points" type="number" min="0" placeholder="Total points" class="input-item">
+                <button id="add" class="input-item hide">Add Grade</button>
+            </table>
+             <p id="addition">Percentage: Grade:</p> 
+        </div>
+    </div>
+    <div id="table" class="flex-parent not-displayed hide">
+        <button id="delete" class="input-item">Remove Grade</button>
+    </div> -->
+    <script src="https://kit.fontawesome.com/8fa10ca4e7.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
